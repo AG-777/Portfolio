@@ -40,6 +40,5 @@ form.addEventListener('submit', e => {
          this.reset(); // Reset the sign-in form
        },2000);
     })
-    .then(() => { })
     .catch(error => console.error('Error!', error.message))
   })
